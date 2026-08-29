@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+}
+.verificador{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    margin: auto;
+    background-color: #7b2cbf;
+    padding: 1%;
+    margin-top: 5%;
+    border-radius: 20%;
+    border: 5px solid #5a189a;
+    gap: 3px;
+}
+.verificador h1{
+    color: white;
+}
+.verificador input{
+    text-align: center;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    max-width: fit-content;
+    margin: auto;
+    text-align: center;
+    background-color: #7b2cbf;
+    padding: 1%;
+    margin-top: 5%;
+    border-radius: 20%;
+    border: 5px solid #5a189a;
+    gap: 3px;
+}
+
+.resultado h1{
+    color: white;
+}
+
+.text{
+    color: white;
+}
