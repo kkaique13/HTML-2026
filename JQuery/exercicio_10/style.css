@@ -1,0 +1,18 @@
+.calculadora{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.butoes{
+    display: flex;
+    flex-wrap: wrap;
+}
