@@ -1,9 +1,15 @@
 .calculadora{
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+    background-color: #e63946;
+    border-radius: 5px;
+    max-width: 15%;
+    margin: auto;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 20px;
+    border: 3px solid black;
 }
 
 .dados{
@@ -12,14 +18,58 @@
     gap: 10px;
 }
 
+.dados input{
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid black;
+    text-align: center;
+}
+
 .butoes{
     display: flex;
     flex-wrap: wrap;
-    background-color: black;
     padding: 10px;
     max-width: 50%;
     align-self: center;
     gap: 5px;
     justify-content: center;
     border-radius: 5px;
+}
+
+button{
+    background-color: #f1faee;
+    color: black;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #e63946;
+    border: 1px solid white;
+    color: white;
+}
+
+.resultado{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1faee;
+    border-radius: 5px;
+    max-width: 15%;
+    margin: auto;
+    margin-top: 20px;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid black;
+}
+
+.resultado h1{
+    font-size: 300%;
+
+}
+
+.resultado p{
+    font-size: 250%;
 }

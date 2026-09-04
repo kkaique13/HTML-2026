@@ -11,12 +11,17 @@
                 <input type="number" id="num1" placeholder="Primeiro número">
                 <input type="number" id="num2" placeholder="Segundo número">
                 <div class="butoes">
-                    <button>Somar</button>
-                    <button>Subtrair</button>
-                    <button>Multiplicar</button>
-                    <button>Dividir</button>
+                    <button onclick="somar()">Somar</button>
+                    <button id="subtrair" onclick="subtrair()">Subtrair</button>
+                    <button id="multiplicar" onclick="multiplicar()">Multiplicar</button>
+                    <button id="dividir" onclick="dividir()">Dividir</button>
                 </div>
             </div>
+        </div>
+
+        <div class="resultado">
+            <h1>Resultado</h1>
+            <p id="conta"></p>
         </div>
     </body>
 </html>

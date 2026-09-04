@@ -1,0 +1,51 @@
+button{
+    background-color: #00798c;
+    color: white;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: #00afb9;
+    color: black;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d1495b;
+    max-width: fit-content;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.temp{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.dados{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #edae49;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#fah{
+    background-color: #00798c;
+    color: white;
+}
+
+.dados input{
+    text-align: center;
+}

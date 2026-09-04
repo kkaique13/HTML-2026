@@ -1,5 +1,5 @@
 function maior(){
-    let idade = $("#idade").val();
+    let idade = Number($("#idade").val());
     if (idade >= 18){
         $(".text").css("color", "green");
     }
