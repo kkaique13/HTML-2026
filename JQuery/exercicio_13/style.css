@@ -8,7 +8,7 @@
   border-radius: 10px;
 }
 
-.desconto {
+.frete {
   background-color: #1c2541;
   margin: auto;
   max-width: fit-content;
@@ -19,13 +19,13 @@
   margin-bottom: 20px;
 }
 
-.desconto input {
+.frete input {
   background-color: white;
   border: 1px solid white;
   border-radius: 10px;
 }
 
-.desconto button {
+.frete button {
   background-color: #3a506b;
   border: 2px solid white;
   border-radius: 10px;
@@ -37,7 +37,7 @@
   background-color: #0b132b;
 }
 
-.resdes {
+.resfre {
   background-color: #3a506b;
   margin: auto;
   max-width: fit-content;
