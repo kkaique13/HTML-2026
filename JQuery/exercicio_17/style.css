@@ -1,0 +1,14 @@
+h1{
+    text-align: center;
+}
+
+.interruptor{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    max-width: fit-content;
+}
+
+img{
+    margin: auto;
+}

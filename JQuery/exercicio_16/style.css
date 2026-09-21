@@ -1,0 +1,70 @@
+h1{
+    text-align: center;
+}
+
+.controlador{
+    display: flex;
+    margin: auto;
+    max-width: fit-content;
+    padding: 10px;
+    gap: 5px;
+    justify-content: center;
+    background-color: grey;
+    border: 2px solid black;
+    border-radius: 2px;
+}
+
+button{
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#green{
+    background-color: green;
+    color: white;
+}
+
+#yellow{
+    background-color: yellow;
+}
+
+#red{
+    background-color: darkred;
+    color: white;
+}
+
+.semaforo{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    margin-top: 10px;
+    gap: 5px;
+    background-color: black;
+    border: 5px solid grey;
+    border-radius: 5px;
+    max-width: fit-content;
+}
+
+.siga{
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.aten{
+    background-color: black;
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.pare{
+    background-color: black; 
+    border: 2px solid grey;
+    border-radius: 10px;
+    padding: 10px;
+}
