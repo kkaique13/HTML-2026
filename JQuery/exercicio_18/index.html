@@ -1,0 +1,56 @@
+<html>
+  <head>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/4.0.0/jquery.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+  </head>
+  <body>
+    <button onclick="escuro()" class="black">Modo Escuro</button>
+    <button onclick="claro()" class="white">Modo Claro</button>
+    <h1>
+      Tutorial: como fazer seu PC falar uma frase aleatória toda vez que você
+      liga
+    </h1>
+    <ol>
+      <li><h2>Abra o bloco de notas</h2></li>
+      <p>Pressione:</p>
+      <p><b>Win + R</b> → Digite notepad → <b>Enter</b></p>
+      <p>Cole isto:</p>
+      <p><i>Set voz = CreateObject("SAPI.SpVoice")</i></p>
+      <p>
+        <i>
+          voz.Speak "Kaique, o sistema está operacional. O pato aguarda suas
+          ordens."
+        </i>
+      </p>
+
+      <li><h2>Salve o arquivo</h2></li>
+      <p>Clique em <b>Arquivo</b> → <b>Salvar como</b></p>
+      <p>Coloque:</p>
+      <p><i>fala.vbs</i></p>
+      <p>Em <b>Tipo</b>, escolha:</p>
+      <p><i>Todos os arquivos</i></p>
+      <p>Pode salvar na <b>Área de Trabalho</b>.</p>
+
+      <li><h2>Teste</h2></li>
+      <p>Dê dois cliques em <i>fala.vbs</i></p>
+      <p>Seu computador deverá falar a frase usando a voz do Windows.</p>
+
+      <li><h2>Faça acontecer toda vez que ligar o PC</h2></li>
+      <p>Pressione <b>Win + R</b></p>
+      <p>Digite:</p>
+      <p><i>shell:startup</i></p>
+      <p>E pressione <b>Enter</b></p>
+      <p>
+        Vai abrir uma pasta. Agora simplesmente
+        <b>arraste o <i>fala.vbs</i> para dentro dela</b>.
+      </p>
+
+      <li><h2>Reinicie o PC</h2></li>
+      <p>Quando o Windows ligar novamente, ele vai dizer:</p>
+      <p>
+        <b>"Kaique, o sistema está operacional. O pato aguarda suas ordens."</b>
+      </p>
+    </ol>
+  </body>
+</html>

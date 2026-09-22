@@ -1,14 +1,22 @@
-h1{
-    text-align: center;
+h1 {
+  text-align: center;
 }
 
-.interruptor{
-    display: flex;
-    flex-direction: column;
-    margin: auto;
-    max-width: fit-content;
+.interruptor {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: fit-content;
+  gap: 5px;
+  background-color: black;
+  padding: 10px;
+  border: 3px solid grey;
+  border-radius: 10px;
 }
 
-img{
-    margin: auto;
+.interruptor button {
+  background-color: white;
+  cursor: pointer;
+  border: 2px solid grey;
+  border-radius: 10px;
 }
