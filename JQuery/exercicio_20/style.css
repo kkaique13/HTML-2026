@@ -1,0 +1,48 @@
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    background-color: #0b132b;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+  }
+  
+  .estoque {
+    background-color: #1c2541;
+    margin: auto;
+    max-width: 500px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .estoque input {
+    background-color: white;
+    border: 1px solid white;
+    border-radius: 10px;
+  }
+  
+  .estoque button {
+    background-color: #3a506b;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+  }
+  
+  .estoque button:hover {
+    background-color: #0b132b;
+  }
+  
+  .resultado {
+    background-color: #3a506b;
+    margin: auto;
+    max-width: 500px;
+    padding: 10px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+  }

@@ -1,0 +1,35 @@
+.container {
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+    background-color: white;
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  .tema {
+    margin: auto;
+    max-width: 500px;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  .tema input {
+    border: 2px solid black;
+    border-radius: 10px;
+  }
+  
+  .tema button {
+    background-color: #3a506b;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    padding: 5px 10px;
+  }
+  
+  .tema button:hover {
+    background-color: #0b132b;
+  }
