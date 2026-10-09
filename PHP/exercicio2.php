@@ -1,6 +1,6 @@
 <html>
     <head>
-
+        <title>Exercício 2</title>
     </head>
     <body>
         <h1>Módulo de um número</h1>

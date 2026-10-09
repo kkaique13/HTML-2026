@@ -1,6 +1,6 @@
 <html>
     <head>
-
+        <title>Exercício 5</title>
     </head>
     <body>
         <h1>Calculadora de Equação 2º Grau</h1>

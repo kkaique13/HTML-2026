@@ -1,5 +1,6 @@
 <html>
     <head>
+        <title>Exercício 3</title>
     </head>
     <body>
         <h1>Verificador de nota</h1>
