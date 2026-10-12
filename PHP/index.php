@@ -1,6 +1,6 @@
 <html>
     <head>
-
+        <title>Exercícios sobre PHP</title>
     </head>
     <body>
         <h1>Exercícios sobre PHP</h1>
@@ -10,5 +10,10 @@
         <p><a href="exercicio4.php">Exercicio 4 - Verificador de notas + Recuperação</a><p>
         <p><a href="exercicio5.php">Exercicio 5 - Calculadora de equação de 2º grau</a><p>
         <p><a href="exercicio6.php">Exercicio 6 - Ordem crescente de 3 números</a><p>
+        <p><a href="exercicio7.php">Exercicio 7 - Valores divisíveis por 2 e 3</a><p>
+        <p><a href="exercicio8.php">Exercicio 8 - Valores divisíveis por 2 ou 3</a><p>
+        <p><a href="exercicio9.php">Exercicio 9 - Maior e menor valor</a><p>
+        <p><a href="exercicio10.php">Exercicio 10 - Par ou ímpar</a><p>
+        <p><a href="exercicio11.php">Exercicio 11 - Faixa de 1 a 9</a><p>
     </body>
 </html>
