@@ -15,5 +15,10 @@
         <p><a href="exercicio9.php">Exercicio 9 - Maior e menor valor</a><p>
         <p><a href="exercicio10.php">Exercicio 10 - Par ou ímpar</a><p>
         <p><a href="exercicio11.php">Exercicio 11 - Faixa de 1 a 9</a><p>
+        <p><a href="exercicio12.php">Exercicio 12 - Verificador de sexo</a><p>
+        <p><a href="exercicio13.php">Exercício 13 - Soma e mostrar só se for maior ou igual a 100</a></p>
+        <p><a href="exercicio14.php">Exercício 14 - Dobrar o número e mostrar o resultado se for maior que 30</a></p>
+        <p><a href="exercicio15.php">Exercício 15 - Números entre 15 a 200</a></p>
+        <p><a href="exercicio16.php">Exercício 16 - Tabuada de um número</a></p>
     </body>
 </html>
