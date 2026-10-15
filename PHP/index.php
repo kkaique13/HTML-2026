@@ -25,5 +25,10 @@
         <p><a href="exercicio19.php">Exercício 19 - Números ímpares de 0 a 20</a></p>
         <p><a href="exercicio20.php">Exercício 20 - Números divisíveis por 4 e menores que 200</a></p>
         <p><a href="exercicio21.php">Exercício 21 - Potências de base 3 com expoentes de 0 a 15</a></p>
+        <p><a href="exercicio22.php">Exercício 22 - Potência de um número</a></p>
+        <p><a href="exercicio23.php">Exercício 23 - Nomes em uma matriz</a></p>
+        <p><a href="exercicio24.php">Exercício 24 - Números multiplicados por 3 em um vetor</a></p>
+        <p><a href="exercicio25.php">Exercício 25 - Números subtraidos de um vetor pelos de outro</a></p>
+        <p><a href="exercicio26.php">Exercício 26 - Números quadrados em outro vetor</a></p>
     </body>
 </html>
